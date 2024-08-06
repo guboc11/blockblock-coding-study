@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Market</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .header {
+            background-color: #fff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            height: 40px;
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+        }
+        .nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        .nav button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .content {
+            padding: 20px;
+        }
+        .market-stats, .trending-coins {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .market-stats h2, .trending-coins h2 {
+            margin-top: 0;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .stats div {
+            text-align: center;
+        }
+        .coins-list {
+            list-style: none;
+            padding: 0;
+        }
+        .coins-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .coins-list li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="logo.png" alt="Logo">
+        <div class="nav">
+            <a href="#">암호화폐</a>
+            <a href="#">거래소</a>
+            <a href="#">NFT</a>
+            <a href="#">알아보기</a>
+            <a href="#">상품</a>
+            <button>가입하기</button>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="market-stats">
+            <h2>시가총액별 암호화폐 시세</h2>
+            <div class="stats">
+                <div>
+                    <h3>US$2,057,248,657,686</h3>
+                    <p>시가총액 <span style="color: green;">▲ 4.4%</span></p>
+                </div>
+                <div>
+                    <h3>US$261,241,737,515</h3>
+                    <p>24시간 거래대금</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-coins">
+            <h2>트렌드</h2>
+            <ul class="coins-list">
+                <li>
+                    <span>Neiro on ETH</span>
+                    <span>US$0.2231 <span style="color: green;">▲ 111.8%</span></span>
+                </li>
+                <li>
+                    <span>Moca Coin</span>
+                    <span>US$0.1067 <span style="color: green;">▲ 2.0%</span></span>
+                </li>
+                <li>
+                    <span>Toncoin</span>
+                    <span>US$5.47 <span style="color: green;">▲ 4.5%</span></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="trending-coins">
+            <h2>최대 수익률</h2>
+            <ul class="coins-list">
+                <li>
+                    <span>LOCK IN</span>
+                    <span>US$0.01954 <span style="color: green;">▲ 143.1%</span></span>
+                </li>
+                <li>
+                    <span>Neiro on ETH</span>
+                    <span>US$0.2231 <span style="color: green;">▲ 111.8%</span></span>
+                </li>
+                <li>
+                    <span>기프트</span>
+                    <span>US$0.05161 <span style="color: green;">▲ 70.7%</span></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
